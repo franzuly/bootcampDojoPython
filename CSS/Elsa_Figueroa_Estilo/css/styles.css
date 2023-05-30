@@ -1,0 +1,45 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    background-color: black;    
+    color: white;
+    padding: 10px;
+    border: 0px;
+    margin: 8px;
+    font-style: normal;
+    font-weight:normal;
+    text-align: left;
+    text-decoration: none;
+}
+.div2{
+    background-color: rgb(157, 86, 204);
+    color: white;    
+    padding: 7px;   
+    border: 0px; 
+    margin: 8px;
+    font-style: italic;
+    font-weight:normal;
+    text-align: center;
+    text-decoration: none;
+  
+}
+.div3{
+    background-color: cornflowerblue;
+    color: blue;    
+    padding: 6px;   
+    border: 0px; 
+    margin: 8px;
+    font-style: normal;
+    font-weight:bold;
+    text-align: right;
+    text-decoration: underline;
+}
+.font1{
+    color:white;
+}
+.font2{
+    color:turquoise;
+}

@@ -1,0 +1,29 @@
+.container{
+    width: 90%;
+    height: 70px;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;  
+    display: flex;       
+    align-items: center;  
+    justify-content: center;
+    color: white;
+}
+.titulo{
+    width: 40%;
+    padding-left: 10px;
+}
+.menu{
+    width: 60%;
+    text-align: right;
+    padding: 10px;
+}
+button{
+    background-color: lightskyblue;
+    color: white;
+    box-shadow: 3px 3px 1px 1px black;
+}
+.bold{
+    font-weight: bold;
+}

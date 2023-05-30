@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .tarjetaUsuario {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 2px solid gray;
+    margin: 0 auto;  
+  }
+  
+  header{
+    background-color: aqua;
+    height: 80px;
+    position: relative;
+  }
+  
+  .imagenUsuario{
+    width: 80px;
+    position: absolute;
+    left: 10px;
+    top:40px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 1px;
+  }
+  
+  main{
+    padding: 10px;
+  }
+  
+  .nombreUsuario{
+    margin-top: 35px;
+  }
+  .edicion, .ubicacion{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icono{
+    width: 15px;
+  }
+
+  .ciudad, .editarPerfil{
+    margin-left: 10px;
+  }
+
+  .ubicacion{
+    margin-bottom: 10px;
+  }
+
+  .edicion{
+    margin-top: 10px;
+  }
